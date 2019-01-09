@@ -76,6 +76,7 @@ You can also enable all the recommended rules at once. Add `plugin:typescript/re
 | ---- | ----------- | ------------------ | -------- |
 | [`typescript/adjacent-overload-signatures`](./docs/rules/adjacent-overload-signatures.md) | Require that member overloads be consecutive (`adjacent-overload-signatures` from TSLint) | :heavy_check_mark: |  |
 | [`typescript/array-type`](./docs/rules/array-type.md) | Requires using either `T[]` or `Array<T>` for arrays (`array-type` from TSLint) | :heavy_check_mark: | :wrench: |
+| [`typescript/await-promise`](./docs/rules/await-promise.md) | Disallow awaiting for a value that is not a Promise (`await-promise` from TSLint) |  |  |
 | [`typescript/ban-types`](./docs/rules/ban-types.md) | Enforces that types will not to be used (`ban-types` from TSLint) | :heavy_check_mark: | :wrench: |
 | [`typescript/camelcase`](./docs/rules/camelcase.md) | Enforce camelCase naming convention | :heavy_check_mark: |  |
 | [`typescript/class-name-casing`](./docs/rules/class-name-casing.md) | Require PascalCased class and interface names (`class-name` from TSLint) | :heavy_check_mark: |  |

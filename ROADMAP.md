@@ -2,10 +2,10 @@
 
 ## TSLint rules
 
-✅ = done  
-🌟 = in ESLint core  
-🔌 = in another plugin  
-🛑 = unimplemented  
+✅ = done
+🌟 = in ESLint core
+🔌 = in another plugin
+🛑 = unimplemented
 ❓ = implementations differ or ESLint version is missing functionality
 
 ### TypeScript-specific
@@ -39,7 +39,7 @@
 
 | TSLint rule                          |     | ESLint rule                                                                                                                                                         |
 | ------------------------------------ | :-: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`await-promise`]                    | 🛑  | N/A                                                                                                                                                                 |
+| [`await-promise`]                    | ✅  | [`typescript/await-promise`]                                                                                                                                        |
 | [`ban-comma-operator`]               | 🌟  | [`no-sequences`](https://eslint.org/docs/rules/no-sequences)                                                                                                        |
 | [`ban`]                              | 🌟  | [`no-restricted-properties`](https://eslint.org/docs/rules/no-restricted-properties) & [`no-restricted-syntax`](https://eslint.org/docs/rules/no-restricted-syntax) |
 | [`curly`]                            | 🌟  | [`curly`](https://eslint.org/docs/rules/curly)                                                                                                                      |
